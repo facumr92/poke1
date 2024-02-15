@@ -1,0 +1,114 @@
+
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+header{
+
+    background-color: rgb(49, 53, 51);
+    padding: 1rem;
+}
+
+nav{
+
+    text-align: end;
+}
+
+
+nav a{
+
+    text-decoration: none;
+    color:rgb(199, 178, 187);
+}
+
+.titulo{
+
+    color: cadetblue;
+}
+main{
+   
+    margin: 5rem;
+    border-radius: 2rem;
+}
+
+
+.fuego{
+    color: antiquewhite;
+    background-color: rgb(230, 145, 76);
+  
+}
+
+.tierra{
+
+    background-color: rgb(172, 111, 62);
+}
+
+.tierra h1{
+
+    color:antiquewhite;
+}
+
+.agua{
+
+    color: antiquewhite;
+    background-color: rgb(95, 202, 216);
+
+}
+
+.agua h1{
+    color:rgb(13, 55, 90);
+}
+h1{
+    text-align: center;
+    color: crimson;
+    padding: 1rem;
+}
+
+
+.pokemon-logo{
+    text-align: left;
+}
+.pokemon{
+  
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pokemon-fuego{
+    color: antiquewhite;
+    background: radial-gradient(circle, rgba(224,46,70,1) 0%, rgba(187,25,56,1) 52%, rgba(255,242,0,1) 100%);
+    border: 3px solid rgb(209, 74, 74);
+}
+
+.pokemon-tierra{
+
+    color: rgb(59, 53, 47);
+    background: radial-gradient(circle, rgba(147,106,67,1) 0%, rgba(187,170,25,1) 52%, rgba(255,242,0,1) 100%);
+    border: 3px solid rgb(209, 173, 74); ;
+}
+
+.pokemon-agua{
+
+    color: rgb(65, 78, 88);
+    font-weight: bold;
+    background: radial-gradient(circle, rgba(59,255,186,1) 0%, rgba(25,32,187,1) 52%, rgba(0,255,254,1) 100%);
+    border: 3px solid rgb(74, 155, 209); ;
+}
+
+
+.pokemon h2{
+    color: rgb(255 255 255);
+    padding: 1rem;
+}
+
+.poke-img{
+
+    width: 200px;
+    height: 200px;
+}
