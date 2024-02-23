@@ -9,6 +9,20 @@
 
 }
 
+button{
+
+
+    color: antiquewhite;
+}
+
+.opciones{
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
 header{
 
     background-color: rgb(49, 53, 51);
